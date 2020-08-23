@@ -1,9 +1,24 @@
-* .container {
-  max-width: 900px; }
+@media (min-width: 576px) and (max-width: 1000px) {
+  .container .img_ben2 {
+    margin: 24px 17px 0px -78px; }
+  .img_Capture {
+    width: 200px;
+    height: 200px; } }
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .img_Capture {
+    width: 200px;
+    height: 200px; }
+  .container .img_ben2 {
+    margin: 24px 17px 0px -78px; } }
 
 .head {
   margin-top: 2%;
   line-height: 14px; }
+
+.fa-bars {
+  text-align: center;
+  color: grey; }
 
 .logo {
   margin-top: 16px; }
@@ -97,6 +112,16 @@
 .benefits hr {
   background: #00aeef;
   height: 1px; }
+
+.img_ben1 {
+  margin: 0px 15px 0px -3px;
+  width: 63px;
+  height: 63px; }
+
+.img_ben2 {
+  width: 63px;
+  height: 63px;
+  margin: 18px 16px 0px -3px; }
 
 .our {
   padding-top: 40px;
